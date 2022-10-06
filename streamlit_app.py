@@ -1,16 +1,13 @@
 import geopandas
 import streamlit as st
-import pandas as pd
-import numpy as np
+import pandas    as pd
+import numpy     as np
 import folium
-import plotly.express as px
-from fiona import Env as fiona_env
-from geopandas.io.file import _read_file as read_file
 
 from streamlit_folium import folium_static
 from folium.plugins   import MarkerCluster
 
-
+import plotly.express as px
 
 st.set_page_config(layout='wide')
 
