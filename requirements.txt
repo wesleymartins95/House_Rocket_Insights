@@ -1,6 +1,7 @@
-folium
-geopandas
-numpy
+streamlit>=1.30
+streamlit-folium
+folium>=0.14
+geopandas>=0.14
+plotly>=5.18
 pandas
-plotly
-streamlit
+numpy
