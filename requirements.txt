@@ -3,4 +3,4 @@ geopandas
 numpy
 pandas
 plotly
-streamlit>=1.32
+streamlit
