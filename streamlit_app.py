@@ -537,4 +537,3 @@ if __name__ == '__main__':
     comercial_distribution(data)
 
     attributes_distribution(data)
->>>>>>> cd3e3a7 (version_6)
