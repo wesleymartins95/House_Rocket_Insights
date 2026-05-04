@@ -249,7 +249,7 @@ if __name__ == '__main__':
     #ETL
     # data extraction
     path = 'datasets/kc_house_data.csv'
-    url = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
+    url = 'https://services.arcgis.com/qFDYoZbXCgWt3pEb/arcgis/rest/services/King_County_ZIP_Codes/FeatureServer/2/query?outFields=*&where=1%3D1&f=geojson'
 
     data = get_data(path)
     geofile = get_geofile(url)
