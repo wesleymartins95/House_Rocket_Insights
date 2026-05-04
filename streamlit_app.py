@@ -521,19 +521,15 @@ def attributes_distribution(data):
 if __name__ == '__main__':
     #ETL
     # data extraction
-    path = 'kc_house_data.csv'
-    url = 'https://opendata.arcgis.com/datasets/83fc2e72903343aabff6de8cb445b81c_2.geojson'
+    path = 'datasets/kc_house_data.csv'
 
     data = get_data(path)
-    geofile = get_geofile(url)
+    geofile = get_geofile('datasets/king_county_zip.geojson')
 
     #transformation
     data = set_feature(data)
 
     overview_data(data)
-
     portfolio_density(data, geofile)
-
     comercial_distribution(data)
-
     attributes_distribution(data)
